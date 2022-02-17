@@ -48,7 +48,7 @@
 
 ##### Test case 3   
 1 <img src="images/set3_a.png" width="203" height="204">
-2 <img src="images/set3_b.png" width="203" height="204">
+2 <img src="images/set3_b.png" width="197" height="159">
 这张图的大小和人物颜色都不一样, 但是用的是同一个模板, 结果是10
 
 ##### Test case 4   
