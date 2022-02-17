@@ -36,23 +36,23 @@
 我们看下测试用例
 
 ##### Test case 1  
-![](/image/set1_a.png)
-![](/image/set1_b.png)
+![](images/set1_a.png)
+![](/images/set1_b.png)
 第二张图是第一张图微信截图截出来的, 第一张图少截了一周, 并且把右下角的一个log截掉了, 结果是3, 可以说明两张图是相似的
 
 ##### Test case 2   
-![](image/set2_a.png)
-![](image/set2_b.png)
+![](images/set2_a.png)
+![](images/set2_b.png)
 这两张图除了裙子上的印花, 大小和其他都是一模一样的, 结果是4
 
 ##### Test case 3   
-1![](image/set3_a.png)
-2![](image/set3_b.png)
+1![](images/set3_a.png)
+2![](images/set3_b.png)
 这张图的大小和人物颜色都不一样, 但是用的是同一个模板, 结果是10
 
 ##### Test case 4   
-1![](image/set1_a.png)
-2![](image/set2_a.png)
+1![](images/set1_a.png)
+2![](images/set2_a.png)
 这组是拿第一组测试图片和第二组测试图片各一张图进行对比, 因为是完全不一样的图, 结果是41
 
 结果可以看出来相似图片的对比数值基本在个位数左右
