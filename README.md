@@ -1,6 +1,6 @@
-#Image Fuzzy Matching
+#Image Fuzzy Matching 
 
-###原理介绍
+###原理介绍 
 此项目是对[imagehash](https://github.com/JohannesBuchner/imagehash)这个Python库的延展
 原本项目是对两张图片进行对比, 然后给出一个数字结果, 数字越小说明两张图片越相似
 但原库的对比方法输入是两张图片, 在实际项目中使用效率比较低
@@ -14,7 +14,7 @@
 
 并且, 通过了解`numpy.count_nonzero()`这个方法的工作原理有可能实现**图片的模糊搜索**, 以后有空会做
 
-###代码讲解
+###代码讲解 
 1. 把图片用`PIL.Image`打开
 	```python
 	image = Image.open(path1)
@@ -32,25 +32,25 @@ np_array1 = string_2_npArray(image_string)
 result = image_fuzzy_match(np_array1, np_array2)
 ```
 
-###测试用例
+###测试用例 
 我们看下测试用例
 
-#####Test case #1
+#####Test case #1  
 1![](image/set1_a.png)
 2![](image/set1_b.png)
 第二张图是第一张图微信截图截出来的, 第一张图少截了一周, 并且把右下角的一个log截掉了, 结果是3, 可以说明两张图是相似的
 
-#####Test case #2
+#####Test case #2   
 1![](image/set2_a.png)
 2![](image/set2_b.png)
 这两张图除了裙子上的印花, 大小和其他都是一模一样的, 结果是4
 
-#####Test case #3
+#####Test case #3   
 1![](image/set3_a.png)
 2![](image/set3_b.png)
 这张图的大小和人物颜色都不一样, 但是用的是同一个模板, 结果是10
 
-#####Test case #4
+#####Test case #4   
 1![](image/set1_a.png)
 2![](image/set2_a.png)
 这组是拿第一组测试图片和第二组测试图片各一张图进行对比, 因为是完全不一样的图, 结果是41
