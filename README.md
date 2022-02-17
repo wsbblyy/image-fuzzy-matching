@@ -37,7 +37,7 @@
 
 ##### Test case 1  
 1 <img src="images/set1_a.png">
-2 <img src="images/set2_a.png">
+2 <img src="images/set1_a.png">
 
 第二张图是第一张图微信截图截出来的, 第一张图少截了一周, 并且把右下角的一个log截掉了, 结果是3, 可以说明两张图是相似的
 
