@@ -37,12 +37,12 @@
 
 ##### Test case 1  
 ![](images/set1_a.png)
-![](/images/set1_b.png)
+![](images/set1_b.png)
 第二张图是第一张图微信截图截出来的, 第一张图少截了一周, 并且把右下角的一个log截掉了, 结果是3, 可以说明两张图是相似的
 
 ##### Test case 2   
-![](images/set2_a.png)
-![](images/set2_b.png)
+![](images/set2_a.png =200*266)
+![](images/set2_b.png =200*266)
 这两张图除了裙子上的印花, 大小和其他都是一模一样的, 结果是4
 
 ##### Test case 3   
