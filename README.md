@@ -20,17 +20,17 @@
 	image = Image.open(path1)
 	```
 2. 用本项目中的`fuzzy_match.image_2_string()`把图片转化成字符串, 这里的字符串就可以进行存储
-```python
-image_string = fuzzy_match.image_2_string(image)
-```
+    ```python
+    image_string = fuzzy_match.image_2_string(image)
+    ```
 3. 需要对比时就把字符串用`fuzzy_match.string_2_npArray()`转化成`numpy array`
-```python
-np_array1 = string_2_npArray(image_string)
-```
+    ```python
+    np_array1 = string_2_npArray(image_string)
+    ```
 4. 用两个`numpy array`对比得出一个数字结果, 数值越小两张图片越相似
-```python
-result = image_fuzzy_match(np_array1, np_array2)
-```
+    ```python
+    result = image_fuzzy_match(np_array1, np_array2)
+    ```
 
 ### 测试用例 
 我们看下测试用例
