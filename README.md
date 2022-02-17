@@ -5,10 +5,10 @@
 原本项目是对两张图片进行对比, 然后给出一个数字结果, 数字越小说明两张图片越相似
 但原库的对比方法输入是两张图片, 在实际项目中使用效率比较低
 
-经过阅读源码, 我们们发现`imagehash`图片对比的基本流程是:
-	1. 打开图片并通过算法转化成hash值
-	2. 把hash值转化成numpy array
-	3. 用numpy.count_nonzero()这个方法对两个numpy array进行对比得出结果
+经过阅读源码, 我们们发现`imagehash`图片对比的基本流程是:   
+	1. 打开图片并通过算法转化成hash值   
+	2. 把hash值转化成numpy array   
+	3. 用numpy.count_nonzero()这个方法对两个numpy array进行对比得出结果   
 
 我们发现其实把图片通过`imagehash`转化为`numpy array`, 我们可以直接用`numpy.count_nonzero()`对两个`numpy array`进行对比也可以得到同样结果, 在实际项目中我们可以直接把这个`numpy array`可以转化成字符串并进行存储(字节长度小于100), 这样就可以提高使用效率, 具体方法在项目代码中
 
