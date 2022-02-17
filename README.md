@@ -1,4 +1,4 @@
-#Image Fuzzy Matching 
+#Image Fuzzy Matching    
 
 ###原理介绍 
 此项目是对[imagehash](https://github.com/JohannesBuchner/imagehash)这个Python库的延展
